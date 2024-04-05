@@ -12,5 +12,7 @@ def download_video(url, save_path):
     except Exception as e:
         print(e)
 
-url = ""
+url = "https://www.youtube.com/watch?v=G4JvcRJkQL8"
 save_path = "C:/Users/pizz/!CODING/youtube-downloader"
+
+download_video(url, save_path)
