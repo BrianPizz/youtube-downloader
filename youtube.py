@@ -13,6 +13,6 @@ def download_video(url, save_path):
         print(e)
 
 url = "https://www.youtube.com/watch?v=G4JvcRJkQL8"
-save_path = "C:/Users/pizz/!CODING/youtube-downloader"
+save_path = "/Users/pizz/!CODING/Python/youtube-downloader"
 
 download_video(url, save_path)
