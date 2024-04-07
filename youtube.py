@@ -12,7 +12,12 @@ def download_video(url, save_path):
     except Exception as e:
         print(e)
 
-url = "https://www.youtube.com/watch?v=G4JvcRJkQL8"
-save_path = "/Users/pizz/!CODING/Python/youtube-downloader"
+
+# url = "https://www.youtube.com/watch?v=G4JvcRJkQL8"
+# save_path = "/Users/pizz/!CODING/Python/youtube-downloader"
+        
+def open_file_dialog():
+    pass
+
 
 download_video(url, save_path)
