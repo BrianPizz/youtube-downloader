@@ -17,7 +17,7 @@ def download_video(url, save_path):
 # save_path = "/Users/pizz/!CODING/Python/youtube-downloader"
         
 def open_file_dialog():
-    pass
+    folder = filedialog.askdirectory()
 
 root = tk.Tk()
 root.withdraw()
