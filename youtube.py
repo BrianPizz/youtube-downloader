@@ -18,6 +18,11 @@ def download_video(url, save_path):
         
 def open_file_dialog():
     folder = filedialog.askdirectory()
+    if folder:
+        print(f"Selected folder: {folder}")
+
+    return folder
+
 
 root = tk.Tk()
 root.withdraw()
