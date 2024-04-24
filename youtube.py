@@ -33,4 +33,4 @@ if __name__ == "__main__":
     if not save_dir:
         print("Please select a folder...")
     else:
-        download_video()
+        download_video(video_url, save_dir)
