@@ -30,7 +30,7 @@ if __name__ == "__main__":
     video_url = input("Please enter a YouTube url: ")
     save_dir = open_file_dialog()
 
-    if not save_dir:
-        print("Invalid save location.")
-    else:
+    if save_dir:
         download_video(video_url, save_dir)
+    else:
+        print("Invalid save location.")
